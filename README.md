@@ -39,7 +39,7 @@ Procedure followed to setup the code:
 - - - 4.class_names[np.argmax(predictions[0])], np.argmax(predictions[0]), class_names[test_labels[0]], test_labels[0]), using this code we get the image out of. the array for predictions.
 - - - 5.apiserving.py is the file whihc contains the necessary code, it has been executed in colab. The model which is saved inside outputs/fashion/1 folder, has been uploaded to my drive and executed the process of the serving by executing the code in colab the predictions are made as follows.
 - - -![alt](https://github.com/pchennam1998/CMPE255MMClassifier/blob/196780f6aa0af6a225df3e95a0d05fb20267eb10/WhatsApp%20Image%202022-11-20%20at%2012.11.28.jpeg)
-- - -![alt](https://github.com/pchennam1998/CMPE255MMClassifier/commit/196780f6aa0af6a225df3e95a0d05fb20267eb10#diff-f46059b5104542048c4970f13d99818f1d0e1e1e1b57fdb8c56f84b542c189a5)
+<!-- - - -![alt](https://github.com/pchennam1998/CMPE255MMClassifier/commit/196780f6aa0af6a225df3e95a0d05fb20267eb10#diff-f46059b5104542048c4970f13d99818f1d0e1e1e1b57fdb8c56f84b542c189a5) -->
 
 
 # MultiModalClassifier
