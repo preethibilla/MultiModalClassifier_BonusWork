@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .header {
+                margin-top: 2%;
+                margin-left: 10%;
+                color: aquamarine;
+            }
+            .formblock {
+                margin-top: 2%;
+                margin-left: 10%;
+                padding: 1%;
+            }
+            .result {
+                margin-left: 10%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>TensorFlow Inference</h1>
+        </div>
+        <form  method="POST">
+            <div class="formblock">
+                <label for="TopN">Enter the proper Image URL</label>
+
+                <input type="text" id="n" name="n">
+                <br><br>
+                <input type="submit" value="Predict the class">
+            </div>
+            <div class="result">
+                <h3>Class Name of the Fashion Mnist: {{class_name}}</h3>
+                <h3>Confidence Interval: {{confidence}}</h3>
+            </div>
+        </form>
+    </body>
+</html>

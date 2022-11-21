@@ -1,0 +1,15 @@
+README.md
+setup.py
+MultimodalClassifier.egg-info/PKG-INFO
+MultimodalClassifier.egg-info/SOURCES.txt
+MultimodalClassifier.egg-info/dependency_links.txt
+MultimodalClassifier.egg-info/requires.txt
+MultimodalClassifier.egg-info/top_level.txt
+TFClassifier/__init__.py
+TFClassifier/exportTFlite.py
+TFClassifier/myTFDistributedCustomTrainer.py
+TFClassifier/myTFDistributedTrainer.py
+TFClassifier/myTFDistributedTrainerv2.py
+TFClassifier/myTFInference.py
+TFClassifier/myTFloadcheckpoint.py
+TFClassifier/myTFsimpletest.py
